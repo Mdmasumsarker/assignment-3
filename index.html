@@ -12,7 +12,47 @@
 
 <body class="bg-white">
     <header class="navber p-0.5">
-
+<nav>
+    <div class="navbar bg-white">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">daisyUI</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Item 1</a></li>
+            <li>
+              <details>
+                <summary>Parent</summary>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn">Button</a>
+        </div>
+      </div>
+</nav>
 
     </header>
     <main>
@@ -31,49 +71,141 @@
             <p class="description">Dit amet consectetur. Condimentum dignissim adipiscing
                 aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
         </div>
-        <div class="hockeys bg-white text-center">
-            <h1 class="hockeys-title text-black text-5xl">Professional Hockeys Club</h1>
-            <p class="description">Dit amet consectetur. Condimentum dignissim adipiscing
-                aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
-        </div>
+        <section class="mt-20">
+
+            <div class="flex justify-center gap-6">
+                <div class="text-center">
+                    <div class="radial-progress" style="--value:87;" role="progressbar">87%</div>
+                    <h2>Prayer Facility</h2>
+                    <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                </div>
+                <div class="text-center">
+                    <div class="radial-progress" style="--value:95;" role="progressbar">95%</div>
+                    <h2>Experienced Coach</h2>
+                    <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                </div>
+                <div class="text-center">
+                    <div class="radial-progress" style="--value:90;" role="progressbar">90%</div>
+                    <h2>Senior Player</h2>
+                    <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                </div>
+                <div class="text-center">
+                    <div class="radial-progress" style="--value:80;" role="progressbar">80%</div>
+                    <h2>Training Ground</h2>
+                    <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                </div>
+            </div>
+            <div class="hockeys bg-white text-center mt-20">
+                <h1 class="hockeys-title text-black text-5xl">Program Sections</h1>
+                <p class="description">Dit amet consectetur. Condimentum dignissim adipiscing
+                    aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+            </div>
+        </section>
         <div class="program-section">
-            <div class="program-1 flex-auto">
-                <div class="hero"
-                    style="background-image: url(Images/2.png);">
-                    <div class="hero-overlay bg-opacity-60"></div>
-                    <div class="hero-content text-center text-neutral-content">
+            <div class="program-1 flex gap-5 m-20">
+                <div class="hero" style="background-image: url(Images/2.png);">
+                    <div class="hero-overlay "></div>
+                    <div class="hero-content text-left text-neutral-content">
                         <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                                exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                            <button class="btn btn-primary">Get Started</button>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="hero w-100%"
-                        style="background-image: url(Images/3.png);">
-                        <div class="hero-overlay bg-opacity-60"></div>
-                        <div class="hero-content text-center text-neutral-content">
-                            <div class="max-w-md">
-                                <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-                                    excepturi
-                                    exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                                <button class="btn btn-primary">Get Started</button>
-                            </div>
+                            <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+                            <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                                congue sed
+                                et in.</p>
+                            <button class="btn btn-error">Register Now!</button>
                         </div>
                     </div>
 
+
                 </div>
-                <div class="program-2">
+                <div class="hero" style="background-image: url(Images/3.png);">
+                    <div class="hero-overlay "></div>
+                    <div class="hero-content text-left text-neutral-content">
+                        <div class="max-w-md">
+                            <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
+                            <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                                congue sed et in.</p>
+                            <button class="btn btn-error">Register Now!</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="program-2 m-20">
+                <div class="hero" style="background-image: url(Images/4.png);">
+                    <div class="hero-overlay "></div>
+                    <div class="hero-content text-left text-neutral-content">
+                        <div class="max-w-md">
+                            <h1 class="mb-5 text-5xl font-bold">Professional Program</h1>
+                            <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                                congue sed et in.</p>
+                            <button class="btn btn-error">Register Now!</button>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
+            <section>
+                <div class="hockeys bg-white text-center">
+                    <h1 class="hockeys-title text-black text-5xl">Our New Products</h1>
+                    <p class="description">Dit amet consectetur. Condimentum dignissim adipiscing
+                        aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+                </div>
+            </section>
 
 
 
     </main>
     <footer>
+        <footer class="footer p-10 bg-base-200 text-base-content">
+            <aside>
+                <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                    clip-rule="evenodd" class="fill-current">
+                    <path></path>
+                </svg>
+                <h2>Get In Touch</h2>
+                <p>Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus
+                    <br> urna in sit nullam proin.
+                </p>
+                <div class="flex gap-1">
+                    <i class="fa-regular fa-envelope"></i>
+
+                    <h4>hockeys@support.com</h4>
+                </div>
+                <div class="flex gap-1">
+                    <i class="fa-solid fa-phone"></i>
+
+                    <h4>(+62) 123-321-543</h4>
+                </div>
+            </aside>
+            <nav>
+                <h6 class="footer-title">Company</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Support</h6>
+                <a class="link link-hover">Help Center
+                </a>
+                <a class="link link-hover">FAQ
+                </a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Support</h6>
+                <a class="link link-hover">Academy</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+        </footer>
 
     </footer>
 
